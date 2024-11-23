@@ -1,10 +1,11 @@
-let nomeHeroi = "Felipao";
+const nomeHeroi = "Felipao";
 let xpInicial = 0;
-let xpAtual = "";
 let nivelAtual = "";
-
+let numInimigos = 3;
+let xpAtual = 150 * numInimigos;
+//cada inimigo derrotado concede 150 pontos de experiência
+//escolha o numero de inimigos que você deseja enfrentar
 console.log("Você começará uma grande aventura, Boa sorte!!");
-
 if (xpAtual < 1000) {
   nivelAtual = "Ferro";
 } else if (xpAtual > 1001 && xpAtual < 2000) {
